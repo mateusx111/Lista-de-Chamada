@@ -1,0 +1,24 @@
+.card {
+  height: 100px;
+  width: 50%;
+
+  background: rgb(83, 106, 198);
+  background: linear-gradient(
+    90deg,
+    rgba(83, 106, 198, 1) 26%,
+    rgba(0, 212, 255, 1) 99%
+  );
+  color: #ffffff;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px;
+  margin-bottom: 24px;
+  border-radius: 8px;
+
+}
+
+.card strong {
+  font-size: 18px;
+}
